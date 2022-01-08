@@ -1,0 +1,33 @@
+{
+  "name": "hootweet.me",
+  "version": "1.0.0",
+  "description": "Website to figure out who is most responsible for the time you spend scrolling your timeline.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"No build right now\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://sledsworth@github.com/sledsworth/hootweet.me.git"
+  },
+  "keywords": [
+    "twitter",
+    "javascript",
+    "html",
+    "css"
+  ],
+  "author": "Steve Ledsworth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sledsworth/hootweet.me/issues"
+  },
+  "homepage": "https://github.com/sledsworth/hootweet.me#readme",
+  "dependencies": {
+    "@netlify/functions": "^0.10.0",
+    "node-fetch": "^2.6.6"
+  },
+  "devDependencies": {
+    "netlify-cli": "^8.6.15"
+  }
+}
