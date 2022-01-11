@@ -1,10 +1,9 @@
 const fetch = require('node-fetch')
-const fs = require('fs')
 
 function getHeaders() {
   return {
     'Content-Type': 'application/json',
-    Authorization: `Bearer ${TWITTER_TOKEN}`,
+    Authorization: `Bearer ${process.env.TWITTER_TOKEN}`,
   }
 }
 
